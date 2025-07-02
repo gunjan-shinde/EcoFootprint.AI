@@ -33,7 +33,7 @@ EcoFootprint.AI is an AI-powered Streamlit web application designed to help user
   Includes tips, badges, charts, and historical summary.
 
 
-#Tech Stack
+# Tech Stack
 
  Layer                                           Tools Used                                  
 
