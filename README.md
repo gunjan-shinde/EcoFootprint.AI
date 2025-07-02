@@ -35,15 +35,17 @@ EcoFootprint.AI is an AI-powered Streamlit web application designed to help user
 
 # Tech Stack
 
- Layer                                           Tools Used                                  
+## 🛠 Tech Stack
 
-Frontend                                          Streamlit                                   
-Backend                                     Python, Pandas, NumPy                       
-Visualization                             Plotly, Matplotlib, Seaborn                 
-ML & Suggestions                               Scikit-learn, NLTK                         
-PDF Report                                      ReportLab, FPDF                             
-AR/Avatar                                  OpenCV, Image Processing                    
-Storage                              Local file system or SQLite (optional)      
+| Layer                | Tools Used                          |
+|------------------- --|-------------------------------------|
+| Frontend             | Streamlit                           |
+| Backend              | Python, Pandas, NumPy               |
+| Visualization        | Plotly, Matplotlib, Seaborn         |
+| ML & Suggestions     | Scikit-learn, NLTK                  |
+| PDF Report           | ReportLab, FPDF                     |
+| AR/Avatar            | OpenCV, Image Processing            |
+| Storage              | Local file system or SQLite         |
 
 
 # Project Structure
