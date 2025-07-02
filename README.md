@@ -46,20 +46,22 @@ EcoFootprint.AI is an AI-powered Streamlit web application designed to help user
 | Storage            | Local file system or SQLite (optional)|
 
 # Project Structure
+
+```plaintext
 EcoFootprint.AI/
-├── main.py # Main Streamlit app UI
-├── carbon_emission_calculator.py # CO₂ calculation logic
-├── suggestions_engine.py # ML-based eco tips recommender
-├── visualization.py # Dynamic charts and graphs
-├── avatar_display.py # Avatar expressions based on emission
-├── report_generator.py # PDF report card generator
-├── what_if_simulator.py # What-If behavior impact calculator
-├── history_manager.py # Save and compare emission history
-├── assets/
-│ ├── happy.png
-│ ├── neutral.png
-│ └── sad.png
+├── main.py                         # Main Streamlit app UI
+├── carbon_emission_calculator.py   # CO₂ calculation logic
+├── suggestions_engine.py           # ML-based eco tips recommender
+├── visualization.py                # Dynamic charts and graphs
+├── avatar_display.py               # Avatar expressions based on emissions
+├── report_generator.py             # PDF report card generator
+├── what_if_simulator.py            # "What If" impact calculator
+├── history_manager.py              # Save and compare emission history
+├── assets/                         # Avatar images
+│   ├── happy.png
+│   ├── neutral.png
+│   └── sad.png
 ├── data/
-│ └── usage_history.csv # Stored emission data
-├── requirements.txt # List of Python dependencies
-└── README.md # Project description
+│   └── usage_history.csv           # Stored user emission data
+├── requirements.txt                # List of Python dependencies
+└── README.md                       # Project documentation
